@@ -1,0 +1,14 @@
+SNL-FW (pfSense)
+- WAN : NAT
+- LAN (em1) : 10.10.10.1/24
+- OPT1 (em2) : 10.10.20.1/24
+- Règle ICMP permanente sur OPT1 (easyrule)
+
+SNL-SRV
+- IP : 10.10.10.10/24
+- Gateway : 10.10.10.1
+- Services : nginx, suricata
+
+SNL-CLI
+- IP : 10.10.20.10/24
+- Gateway : 10.10.20.1
